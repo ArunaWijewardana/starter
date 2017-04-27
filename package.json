@@ -1,0 +1,39 @@
+{
+  "name": "starter",
+  "version": "0.0.1",
+  "description": "Starter",
+  "main": "script.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --progress --colors --watch",
+    "dev": " webpack-dev-server --colors --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jankosacc/starter.git"
+  },
+  "author": "JanKos <janis.koselevs@accenture.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jankosacc/starter/issues"
+  },
+  "homepage": "https://github.com/jankosacc/starter#readme",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.0",
+    "css-loader": "^0.27.3",
+    "eslint": "^3.18.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.10.1",
+    "font-awesome": "^4.7.0",
+    "less": "^2.7.2",
+    "less-loader": "^3.0.0",
+    "style-loader": "^0.14.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
